@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="thumbnail_actions">
+
+        <item>Take a photo</item>
+        <item>Open the gallery</item>
+
+    </string-array>
+
+</resources>

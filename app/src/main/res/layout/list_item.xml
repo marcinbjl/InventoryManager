@@ -1,0 +1,76 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="@dimen/activity_padding">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/activity_padding"
+            android:src="@drawable/placeholder" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-medium"
+                android:maxLines="2"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#2B3D4D"
+                tools:text="Epson XP-225" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/price"
+                        style="@style/ListItemPriceQuantity"
+                        android:text="@string/price_format"
+                        tools:text="Price: 49.99" />
+
+                    <TextView
+                        android:id="@+id/quantity"
+                        style="@style/ListItemPriceQuantity"
+                        android:text="@string/quantity_format"
+                        tools:text="Quantity: 1234" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/sale_btn"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/list_item_sale_button" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
