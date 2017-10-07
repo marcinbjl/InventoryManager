@@ -9,4 +9,4 @@
 ![](/screenshot2.png?raw=true "Screenshot")
 ![](/screenshot3.png?raw=true "Screenshot")
 ![](/screenshot4.png?raw=true "Screenshot")
-![](/gif.gif?raw=true "Screenshot")
+<img src="/480x.gif?raw=true" height="640">
