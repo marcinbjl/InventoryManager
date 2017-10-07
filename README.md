@@ -9,3 +9,4 @@
 ![](/screenshot2.png?raw=true "Screenshot")
 ![](/screenshot3.png?raw=true "Screenshot")
 ![](/screenshot4.png?raw=true "Screenshot")
+![](/gif.gif?raw=true "Screenshot")
